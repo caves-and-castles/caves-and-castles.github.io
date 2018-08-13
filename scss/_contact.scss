@@ -46,4 +46,8 @@ section#contact {
     color: $gray-400;
     @include heading-font;
   }
+  label {
+    color: $white;
+    @include heading-font;
+  }
 }

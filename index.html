@@ -428,6 +428,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
+                    <!-- <label for="firstName">First Name</label> -->
                     <input class="form-control" id="firstName" type="text" name="First name" placeholder="First name *" required data-validation-required-message="Please enter your first name.">
                     <p class="help-block text-danger"></p>
                   </div>
@@ -454,13 +455,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input class="form-control" id="street1" name="Street address 1" placeholder="Street address 1 *" required data-validation-required-message="Please enter the street address.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="street2" name="Street address 2" placeholder="Street address 2">
+                    <input class="form-control" id="street" name="Street address" placeholder="Street address *" required data-validation-required-message="Please enter the street address.">
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
@@ -484,9 +479,9 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                   <div class="form-group">
-                    <textarea class="form-control" id="message" name="Message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
+                    <textarea class="form-control" id="message" name="Message" placeholder="Anything else you would like us to know about the property?"></textarea>
                     <p class="help-block text-danger"></p>
                     <input type="text" name="_gotcha" style="display:none" />
                     <input type="hidden" name="_next" value="http://venableinvestments.com/" />
